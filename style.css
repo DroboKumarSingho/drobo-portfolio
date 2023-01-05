@@ -155,5 +155,19 @@ font-size: 20px;
 .resume_container{
     
     display: flex;
+    gap: 25px;
     justify-content: space-between;
+}
+.resu{
+    margin-bottom: 30px;
+    font-weight: 700;
+font-size: 30px;
+}
+.resu-sub{
+    font-weight: 700;
+font-size: 25px;
+}
+.resume_box{
+    border-bottom: 1px solid #D1D1D1;
+    padding: 20px;
 }
