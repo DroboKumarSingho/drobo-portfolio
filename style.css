@@ -184,3 +184,61 @@ font-size: 16px;
     margin-top: 130px;
     margin-bottom: 130px;
 }
+.resume_content_container{
+    display: flex;
+    gap: 25px;
+    justify-content: space-between;
+    margin-left: 100px;
+
+}
+.resume.title{
+    font-weight: 700;
+font-size: 25px;
+color: #474747;
+}
+.resume_title{
+    margin-bottom: 30px;
+    font-weight: 700;
+font-size: 30px;
+}
+.resume_title_items{
+    max-width: 511px;
+    
+}
+.item-sub-title{
+    font-weight: 600;
+font-size: 20px;
+margin: 10px 0 10px 0;
+}
+.description{
+    color: #757575;
+    font-weight: 400;
+font-size: 16px;
+
+}
+hr{
+    margin: 30px 0 30px 0;
+}
+.resume_button{
+    margin: 50px ;
+    
+}
+footer{
+    max-width: 1600px;
+}
+.footer_container{
+    display: flex;
+    justify-content: space-between;
+    margin: 50px 200px;
+    gap: 50px;
+}
+.footer_title{
+    margin-bottom: 30px;
+}
+.from-text{
+    position: absolute;
+    background: #FFFFFF;
+border-radius: 5px;
+border: 0px;
+}
+
