@@ -182,7 +182,7 @@ font-size: 16px;
 }
 .resume{
     margin-top: 130px;
-    margin-bottom: 130px;
+    margin-bottom: 30px;
 }
 .resume_content_container{
     display: flex;
@@ -220,8 +220,8 @@ hr{
     margin: 30px 0 30px 0;
 }
 .resume_button{
-    margin: 50px ;
-    
+    margin-top: 10px ;
+    text-align: center;    
 }
 footer{
     max-width: 1600px;
