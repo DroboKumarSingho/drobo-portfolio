@@ -1,6 +1,7 @@
 * {
     margin: 0;
     font-family: 'Open Sans', sans-serif;
+    box-sizing: border-box;
 }
 
 .main-color {
@@ -29,11 +30,11 @@ nav ul {
 }
 
 .header {
-    background-image: url(./images/header_bg.png), url(./images/developer.png);
+    background-image: url(./images/header_bg.png);
     padding-left: 5px;
     background-repeat: no-repeat;
-    background-position: bottom right, left;
-
+    background-position:bottom right;
+    position: relative;
 }
 
 .btn-primary {
@@ -51,6 +52,12 @@ nav ul {
     margin: 0px 3px 0 200px;
     display: flex;
     align-items: center;
+}
+.developer_img img {
+    position: absolute;
+    left: 30px;
+    height: 87vh;
+    top: 20px;
 }
 
 .sub-title {
@@ -170,6 +177,7 @@ font-size: 16px;
 
 .what_i_do {
     text-align: center;
+    margin-top: 130px;
     margin-bottom: 30px;
     font-weight: 700;
     font-size: 35px;
@@ -245,15 +253,29 @@ border: 0px;
 }
 .footer_section{
     margin-top: 113px;
-    display: flex;
-    gap: 115px;
     background-color: #FFF8F3;
-    padding: 130px 230px;
+    padding: 130px 0;
+}
+.footer_container {
+    display: flex;
     justify-content: space-between;
+    gap: 117px;
+    max-width: 1140px;
+    margin: auto;
+}
+.connect_side {
+    width: 60%;
+}
+.connect_side p{
+    margin-bottom: 30px;
+}
+.Message_side {
+    width: 40%;
 }
 .connect_side h3{
     font-weight: 700;
 font-size: 35px;
+margin-bottom: 30px;
 }
 .Message_side h3{
     margin-bottom: 24px;
@@ -263,11 +285,14 @@ font-size: 35px;
 .input{
     margin-bottom: 24px;
     border: 0px;
-    width: 461px;
-height: 64px;
+    display: block;
+    width: 100%;
+    height: 64px;
+    padding: 20px;
 }
 .input_message{
     margin-bottom: 24px;
-    width: 461px;
+    width: 100%;
 height: 180px;
+display: block;
 }
